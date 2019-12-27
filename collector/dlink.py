@@ -53,6 +53,8 @@ class D_LINK:
                 filename = line.split(" ")[-1]
                 file_ext = filename.split(".")[-1]
                 if file_ext.upper() in ('ZIP', 'BIN', 'HEX'):
+                    if os.path.exists(self.firmware_path+filename):
+                        continue
                     self.ftp_conn.downloadFile(self.firmware_path, filename)
 
     def walk(self):
