@@ -13,10 +13,8 @@ class MyFtp:
         self.ftp.set_debuglevel(1)  # 打开调试级别2，显示详细信息
         self.ftp.login(username, pwd)
 
-    def downloadFile(self, localpath, remotepath, filename):
-        os.chdir(localpath)  # 切换工作路径到下载目录
-        self.ftp.cwd(remotepath)  # 要登录的ftp目录
-        file_handle = open(filename, "wb")  # 以写模式在本地打开文件
+    def downloadFile(self, localpath, filename):
+        file_handle = open(localpath + filename, "wb")  # 以写模式在本地打开文件
         self.ftp.retrbinary('RETR %s' % os.path.basename(filename), file_handle.write, blocksize=1024)  # 下载ftp文件
         file_handle.close()
 
@@ -41,6 +39,7 @@ class D_LINK:
         self.cwd_list = queue.Queue()
         self.cwd_list.put("/PRODUCTS")
         self.log_file = open("./dlink.log", "w")
+        self.firmware_path = "../firmware/"
 
     def download_files(self, pwd):
         filelist = []
@@ -53,15 +52,15 @@ class D_LINK:
                 # this is a file
                 filename = line.split(" ")[-1]
                 file_ext = filename.split(".")[-1]
-                self.log_file.write(filename+'\n')
-                # if file_ext in ['zip', 'ZIP', 'Zip', 'bin']:
+                if file_ext.upper() in ('ZIP', 'BIN', 'HEX'):
+                    self.ftp_conn.downloadFile(self.firmware_path, filename)
 
     def walk(self):
         while not self.cwd_list.empty():
             dir_name = self.cwd_list.get()
             self.ftp_conn.cwd(dir_name)
             self.download_files(dir_name)
-            print("walking in %s" % dir_name)
+            # print("walking in %s" % dir_name)
 
     def __del__(self):
         self.ftp_conn.close()
