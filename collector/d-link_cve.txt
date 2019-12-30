@@ -1,0 +1,230 @@
+
+https://www.cvedetails.com/cve/CVE-2018-20305
+D-Link DIR-816 A2 1.10 B05 devices allow arbitrary remote code execution without authentication via the newpass parameter. In the /goform/form2userconfig.cgi handler function, a long password may lead to a stack-based buffer overflow and overwrite a return address.	<br>
+Dir-816 A2 Dir-816 A2
+
+https://www.cvedetails.com/cve/CVE-2018-20057
+An issue was discovered in /bin/boa on D-Link DIR-619L Rev.B 2.06B1 and DIR-605L Rev.B 2.12B1 devices. goform/formSysCmd allows remote authenticated users to execute arbitrary OS commands via the sysCmd POST parameter.	<br>
+Dir-605l Dir-619l Dir-605l Dir-619l
+
+https://www.cvedetails.com/cve/CVE-2018-20056
+An issue was discovered in /bin/boa on D-Link DIR-619L Rev.B 2.06B1 and DIR-605L Rev.B 2.12B1 devices. There is a stack-based buffer overflow allowing remote attackers to execute arbitrary code without authentication via the goform/formLanguageChange currTime parameter.	<br>
+Dir-605l Dir-619l Dir-605l Dir-619l
+
+https://www.cvedetails.com/cve/CVE-2018-19300
+On D-Link DAP-1530 (A1) before firmware version 1.06b01, DAP-1610 (A1) before firmware version 1.06b01, DWR-111 (A1) before firmware version 1.02v02, DWR-116 (A1) before firmware version 1.06b03, DWR-512 (B1) before firmware version 2.02b01, DWR-711 (A1) through firmware version 1.11, DWR-712 (B1) before firmware version 2.04b01, DWR-921 (A1) before firmware version 1.02b01, and DWR-921 (B1) before firmware version 2.03b01, there exists an EXCU_SHELL file in the web directory. By sending a GET request with specially crafted headers to the /EXCU_SHELL URI, an attacker could execute arbitrary shell commands in the root context on the affected device. Other devices might be affected as well.	<br>
+Dap-1530 Dap-1610 Dwr-111 Dwr-116 Dwr-116 Dwr-116 Dwr-512 Dwr-711 Dwr-712 Dwr-921 Dwr-921 Dap-1530 Dap-1610 Dwr-111 Dwr-116 Dwr-512 Dwr-711 Dwr-712 Dwr-921
+
+https://www.cvedetails.com/cve/CVE-2018-18636
+XSS exists in cgi-bin/webcm on D-link DSL-2640T routers via the var:RelaodHref or var:conid parameter.	<br>
+Dsl-2640t Dsl-2640t
+
+https://www.cvedetails.com/cve/CVE-2018-17881
+On D-Link DIR-823G 2018-09-19 devices, the GoAhead configuration allows /HNAP1 SetPasswdSettings commands without authentication to trigger an admin password change.	<br>
+Dir-823g Dir-823g
+
+https://www.cvedetails.com/cve/CVE-2018-17880
+On D-Link DIR-823G 2018-09-19 devices, the GoAhead configuration allows /HNAP1 RunReboot commands without authentication to trigger a reboot.	<br>
+Dir-823g Dir-823g
+
+https://www.cvedetails.com/cve/CVE-2018-17787
+On D-Link DIR-823G devices, the GoAhead configuration allows /HNAP1 Command Injection via shell metacharacters in the POST data, because this data is sent directly to the &quot;system&quot; library function.	<br>
+Dir-823g Dir-823g
+
+https://www.cvedetails.com/cve/CVE-2018-17786
+On D-Link DIR-823G devices, ExportSettings.sh, upload_settings.cgi, GetDownLoadSyslog.sh, and upload_firmware.cgi do not require authentication, which allows remote attackers to execute arbitrary code.	<br>
+Dir-823g Dir-823g
+
+https://www.cvedetails.com/cve/CVE-2018-17068
+An issue was discovered on D-Link DIR-816 A2 1.10 B05 devices. An HTTP request parameter is used in command string construction in the handler function of the /goform/Diagnosis route. This could lead to command injection via shell metacharacters in the sendNum parameter.	<br>
+Dir-816 A2 Dir-816 A2
+
+https://www.cvedetails.com/cve/CVE-2018-17067
+An issue was discovered on D-Link DIR-816 A2 1.10 B05 devices. A very long password to /goform/formLogin could lead to a stack-based buffer overflow and overwrite the return address.	<br>
+Dir-816 A2 Dir-816 A2
+
+https://www.cvedetails.com/cve/CVE-2018-17066
+An issue was discovered on D-Link DIR-816 A2 1.10 B05 devices. An HTTP request parameter is used in command string construction in the handler function of the /goform/form2systime.cgi route. This could lead to command injection via shell metacharacters in the datetime parameter.	<br>
+Dir-816 A2 Dir-816 A2
+
+https://www.cvedetails.com/cve/CVE-2018-17065
+An issue was discovered on D-Link DIR-816 A2 1.10 B05 devices. Within the handler function of the /goform/DDNS route, a very long password could lead to a stack-based buffer overflow and overwrite the return address.	<br>
+Dir-816 A2 Dir-816 A2
+
+https://www.cvedetails.com/cve/CVE-2018-17064
+An issue was discovered on D-Link DIR-816 A2 1.10 B05 devices. An HTTP request parameter is used in command string construction within the handler function of the /goform/sylogapply route. This could lead to command injection via the syslogIp parameter after /goform/clearlog is invoked.	<br>
+Dir-816 A2 Dir-816 A2
+
+https://www.cvedetails.com/cve/CVE-2018-17063
+An issue was discovered on D-Link DIR-816 A2 1.10 B05 devices. An HTTP request parameter is used in command string construction within the handler function of the /goform/NTPSyncWithHost route. This could lead to command injection via shell metacharacters.	<br>
+Dir-816 A2 Dir-816 A2
+
+https://www.cvedetails.com/cve/CVE-2018-16408
+D-Link DIR-846 devices with firmware 100.26 allow remote attackers to execute arbitrary code as root via a SetNetworkTomographySettings request by leveraging admin access.	<br>
+Dir-846 Dir-846
+
+https://www.cvedetails.com/cve/CVE-2018-11013
+Stack-based buffer overflow in the websRedirect function in GoAhead on D-Link DIR-816 A2 (CN) routers with firmware version 1.10B05 allows unauthenticated remote attackers to execute arbitrary code via a request with a long HTTP Host header.	<br>
+Dir-816 A2 Dir-816 A2
+
+https://www.cvedetails.com/cve/CVE-2018-10996
+The weblogin_log function in /htdocs/cgibin on D-Link DIR-629-B1 devices allows attackers to execute arbitrary code or cause a denial of service (buffer overflow) via a session.cgi?ACTION=logout request involving a long REMOTE_ADDR environment variable.	<br>
+Dir-629-b Dir-629-b
+
+https://www.cvedetails.com/cve/CVE-2018-10967
+On D-Link DIR-550A and DIR-604M devices through v2.10KR, a malicious user can forge an HTTP request to inject operating system commands that can be executed on the device with higher privileges, aka remote code execution.	<br>
+Dir-550a Dir-604m Dir-550a Dir-604m
+
+https://www.cvedetails.com/cve/CVE-2018-10957
+CSRF exists on D-Link DIR-868L devices, leading to (for example) a change to the Admin password. hedwig.cgi and pigwidgeon.cgi are two of the affected components.	<br>
+Dir-868l Dir-868l
+
+https://www.cvedetails.com/cve/CVE-2018-10822
+Directory traversal vulnerability in the web interface on D-Link DWR-116 through 1.06, DIR-140L through 1.02, DIR-640L through 1.02, DWR-512 through 2.02, DWR-712 through 2.02, DWR-912 through 2.02, DWR-921 through 2.02, and DWR-111 through 1.01 devices allows remote attackers to read arbitrary files via a /.. or // after &quot;GET /uir&quot; in an HTTP request.  NOTE: this vulnerability exists because of an incorrect fix for CVE-2017-6190.	<br>
+Dir-140l Dir-640l Dwr-111 Dwr-116 Dwr-512 Dwr-712 Dwr-912 Dwr-921 Dir-140l Dir-640l Dwr-111 Dwr-116 Dwr-512 Dwr-712 Dwr-912 Dwr-921
+
+https://www.cvedetails.com/cve/CVE-2018-10750
+An issue was discovered on D-Link DSL-3782 EU 1.01 devices. An authenticated user can pass a long buffer as a &#039;staticGet&#039; parameter to the &#039;/userfs/bin/tcapi&#039; binary (in the Diagnostics component) using the &#039;staticGet &lt;node_name attr&gt;&#039; function and cause memory corruption. Furthermore, it is possible to redirect the flow of the program and execute arbitrary code.	<br>
+Dsl-3782 Dsl-3782
+
+https://www.cvedetails.com/cve/CVE-2018-10749
+An issue was discovered on D-Link DSL-3782 EU 1.01 devices. An authenticated user can pass a long buffer as a &#039;commit&#039; parameter to the &#039;/userfs/bin/tcapi&#039; binary (in the Diagnostics component) using the &#039;commit &lt;node_name&gt;&#039; function and cause memory corruption. Furthermore, it is possible to redirect the flow of the program and execute arbitrary code.	<br>
+Dsl-3782 Dsl-3782
+
+https://www.cvedetails.com/cve/CVE-2018-10748
+An issue was discovered on D-Link DSL-3782 EU 1.01 devices. An authenticated user can pass a long buffer as a &#039;show&#039; parameter to the &#039;/userfs/bin/tcapi&#039; binary (in the Diagnostics component) using the &#039;show &lt;node_name&gt;&#039; function and cause memory corruption. Furthermore, it is possible to redirect the flow of the program and execute arbitrary code.	<br>
+Dsl-3782 Dsl-3782
+
+https://www.cvedetails.com/cve/CVE-2018-10747
+An issue was discovered on D-Link DSL-3782 EU 1.01 devices. An authenticated user can pass a long buffer as an &#039;unset&#039; parameter to the &#039;/userfs/bin/tcapi&#039; binary (in the Diagnostics component) using the &#039;unset &lt;node_name&gt;&#039; function and cause memory corruption. Furthermore, it is possible to redirect the flow of the program and execute arbitrary code.	<br>
+Dsl-3782 Dsl-3782
+
+https://www.cvedetails.com/cve/CVE-2018-10746
+An issue was discovered on D-Link DSL-3782 EU 1.01 devices. An authenticated user can pass a long buffer as a &#039;get&#039; parameter to the &#039;/userfs/bin/tcapi&#039; binary (in the Diagnostics component) using the &#039;get &lt;node_name attr&gt;&#039; function and cause memory corruption. Furthermore, it is possible to redirect the flow of the program and execute arbitrary code.	<br>
+Dsl-3782 Dsl-3782
+
+https://www.cvedetails.com/cve/CVE-2018-10713
+An issue was discovered on D-Link DSL-3782 EU 1.01 devices. An authenticated user can pass a long buffer as a &#039;read&#039; parameter to the &#039;/userfs/bin/tcapi&#039; binary (in the Diagnostics component) using the &#039;read &lt;node_name&gt;&#039; function and cause memory corruption. Furthermore, it is possible to redirect the flow of the program and execute arbitrary code.	<br>
+Dsl-3782 Dsl-3782
+
+https://www.cvedetails.com/cve/CVE-2018-10431
+D-Link DIR-615 2.5.17 devices allow Remote Code Execution via shell metacharacters in the Host field of the System / Traceroute screen.	<br>
+Dir-615 Dir-615
+
+https://www.cvedetails.com/cve/CVE-2018-8941
+Diagnostics functionality on D-Link DSL-3782 devices with firmware EU v. 1.01 has a buffer overflow, allowing authenticated remote attackers to execute arbitrary code via a long Addr value to the &#039;set Diagnostics_Entry&#039; function in an HTTP request, related to /userfs/bin/tcapi.	<br>
+Dsl-3782 Dsl-3782
+
+https://www.cvedetails.com/cve/CVE-2018-6530
+OS command injection vulnerability in soap.cgi (soapcgi_main in cgibin) in D-Link DIR-880L DIR-880L_REVA_FIRMWARE_PATCH_1.08B04 and previous versions, DIR-868L DIR868LA1_FW112b04 and previous versions, DIR-65L DIR-865L_REVA_FIRMWARE_PATCH_1.08.B01 and previous versions, and DIR-860L DIR860LA1_FW110b04 and previous versions allows remote attackers to execute arbitrary OS commands via the service parameter.	<br>
+Dir-860l Dir-865l Dir-868l Dir-880l Dir-860l Dir-865l Dir-868l Dir-880l
+
+https://www.cvedetails.com/cve/CVE-2018-6211
+On D-Link DIR-620 devices with a certain customized (by ISP) variant of firmware 1.0.3, 1.0.37, 1.3.1, 1.3.3, 1.3.7, 1.4.0, and 2.0.22, OS command injection is possible as a result of incorrect processing of the res_buf parameter to index.cgi.	<br>
+Dir-620 Dir-620 Dir-620 Dir-620 Dir-620 Dir-620 Dir-620 Dir-620
+
+https://www.cvedetails.com/cve/CVE-2017-17020
+On D-Link DCS-5009 devices with firmware 1.08.11 and earlier, DCS-5010 devices with firmware 1.14.09 and earlier, and DCS-5020L devices with firmware before 1.15.01, command injection in alphapd (binary responsible for running the camera&#039;s web server) allows remote authenticated attackers to execute code through sanitized /setSystemAdmin user input in the AdminID field being passed directly to a call to system.	<br>
+Dcs-5009 Dcs-5010 Dcs-5020l Dcs-5009 Dcs-5010 Dcs-5020l
+
+https://www.cvedetails.com/cve/CVE-2017-14430
+D-Link DIR-850L REV. A (with firmware through FW114WWb07_h2ab_beta1) and REV. B (with firmware through FW208WWb02) devices allow remote attackers to cause a denial of service (daemon crash) via crafted LAN traffic.	<br>
+Dir-850l Dir-850l Dir-850l
+
+https://www.cvedetails.com/cve/CVE-2017-10676
+On D-Link DIR-600M devices before C1_v3.05ENB01_beta_20170306, XSS was found in the form2userconfig.cgi username parameter.	<br>
+Dir-600m Dir-600m
+
+https://www.cvedetails.com/cve/CVE-2017-9542
+D-Link DIR-615 Wireless N 300 Router allows authentication bypass via a modified POST request to login.cgi. This issue occurs because it fails to validate the password field. Successful exploitation of this issue allows an attacker to take control of the affected device.	<br>
+Dir-615 Dir-615
+
+https://www.cvedetails.com/cve/CVE-2017-8408
+An issue was discovered on D-Link DCS-1130 devices. The device provides a user with the capability of setting a SMB folder for the video clippings recorded by the device. It seems that the GET parameters passed in this request (to test if SMB credentials and hostname sent to the device work properly) result in being passed as commands to a &quot;system&quot; API in the function and thus result in command injection on the device. If the firmware version is dissected using binwalk tool, we obtain a cramfs-root archive which contains the filesystem set up on the device that contains all the binaries. The binary &quot;cgibox&quot; is the one that has the vulnerable function &quot;sub_7EAFC&quot; that receives the values sent by the GET request. If we open this binary in IDA-pro we will notice that this follows a ARM little endian format. The function sub_7EAFC in IDA pro is identified to be receiving the values sent in the GET request and the value set in GET parameter &quot;user&quot; is extracted in function sub_7E49C which is then passed to the vulnerable system API call.	<br>
+Dcs-1130 Dcs-1130
+
+https://www.cvedetails.com/cve/CVE-2017-3193
+Multiple D-Link devices including the DIR-850L firmware versions 1.14B07 and 2.07.B05 contain a stack-based buffer overflow vulnerability in the web administration interface HNAP service.	<br>
+Dir-850l Dir-850l Dir-850l
+
+https://www.cvedetails.com/cve/CVE-2017-3191
+D-Link DIR-130 firmware version 1.23 and DIR-330 firmware version 1.12 are vulnerable to authentication bypass of the remote login page. A remote attacker that can access the remote management login page can manipulate the POST request in such a manner as to access some administrator-only pages such as tools_admin.asp without credentials.	<br>
+Dir-130 Dir-330 Dir-130 Dir-330
+
+https://www.cvedetails.com/cve/CVE-2016-10405
+Session fixation vulnerability in D-Link DIR-600L routers (rev. Ax) with firmware before FW1.17.B01 allows remote attackers to hijack web sessions via unspecified vectors.	<br>
+Dir-600l Dir-600l
+
+https://www.cvedetails.com/cve/CVE-2016-5681
+Stack-based buffer overflow in dws/api/Login on D-Link DIR-850L B1 2.07 before 2.07WWB05, DIR-817 Ax, DIR-818LW Bx before 2.05b03beta03, DIR-822 C1 3.01 before 3.01WWb02, DIR-823 A1 1.00 before 1.00WWb05, DIR-895L A1 1.11 before 1.11WWb04, DIR-890L A1 1.09 before 1.09b14, DIR-885L A1 1.11 before 1.11WWb07, DIR-880L A1 1.07 before 1.07WWb08, DIR-868L B1 2.03 before 2.03WWb01, and DIR-868L C1 3.00 before 3.00WWb01 devices allows remote attackers to execute arbitrary code via a long session cookie.	<br>
+Dir-817l(w) Dir-818l(w) Dir-822 Dir-823 Dir-868l Dir-868l Dir-880l Dir-885l Dir-890l Dir-895l Dir-817l(w) Dir-818l(w) Dir-822 Dir-823 Dir-868l Dir-880l Dir-885l Dir-890l Dir-895l
+
+https://www.cvedetails.com/cve/CVE-2015-2052
+Stack-based buffer overflow in the DIR-645 Wired/Wireless Router Rev. Ax with firmware 1.04b12 and earlier allows remote attackers to execute arbitrary code via a long string in a GetDeviceSettings action to the HNAP interface.	<br>
+Dir-645 Dir-645
+
+https://www.cvedetails.com/cve/CVE-2015-2051
+The D-Link DIR-645 Wired/Wireless Router Rev. Ax with firmware 1.04b12 and earlier allows remote attackers to execute arbitrary commands via a GetDeviceSettings action to the HNAP interface.	<br>
+Dir-645 Dir-645
+
+https://www.cvedetails.com/cve/CVE-2015-2049
+Unrestricted file upload vulnerability in D-Link DCS-931L with firmware 1.04 and earlier allows remote authenticated users to execute arbitrary code by uploading a file with an executable extension.	<br>
+Dcs-931l Dcs-931l
+
+https://www.cvedetails.com/cve/CVE-2015-1028
+Multiple cross-site scripting (XSS) vulnerabilities in D-Link DSL-2730B router (rev C1) with firmware GE_1.01 allow remote authenticated users to inject arbitrary web script or HTML via the (1) domainname parameter to dnsProxy.cmd (DNS Proxy Configuration Panel); the (2) brName parameter to lancfg2get.cgi (Lan Configuration Panel); the (3) wlAuthMode, (4) wl_wsc_reg, or (5) wl_wsc_mode parameter to wlsecrefresh.wl (Wireless Security Panel); or the (6) wlWpaPsk parameter to wlsecurity.wl (Wireless Password Viewer).	<br>
+Dsl-2730b Dsl-2730b
+
+https://www.cvedetails.com/cve/CVE-2014-10028
+Cross-site scripting (XSS) vulnerability in D-Link DAP-1360 router with firmware 2.5.4 and later allows remote attackers to inject arbitrary web script or HTML via the res_buf parameter to index.cgi when res_config_id is set to 41.	<br>
+Dap-1360 Dap-1360
+
+https://www.cvedetails.com/cve/CVE-2014-10026
+index.cgi in D-Link DAP-1360 with firmware 2.5.4 and earlier allows remote attackers to bypass authentication and obtain sensitive information by setting the client_login cookie to admin.	<br>
+Dap-1360 Dap-1360
+
+https://www.cvedetails.com/cve/CVE-2014-10025
+Multiple cross-site request forgery (CSRF) vulnerabilities in D-Link DAP-1360 with firmware 2.5.4 and earlier allow remote attackers to hijack the authentication of unspecified users for requests that change the (1) Enable Wireless, (2) MBSSID, (3) BSSID, (4) Hide Access Point, (5) SSID, (6) Country, (7) Channel, (8) Wireless mode, or (9) Max Associated Clients setting via a crafted request to index.cgi.	<br>
+Dap-1360 Dap-1360
+
+https://www.cvedetails.com/cve/CVE-2014-9518
+Cross-site scripting (XSS) vulnerability in login.cgi in D-Link router DIR-655 (rev Bx) with firmware before 2.12b01 allows remote attackers to inject arbitrary web script or HTML via the html_response_page parameter.	<br>
+Dir-655 Dir-655
+
+https://www.cvedetails.com/cve/CVE-2014-9238
+D-link IP camera DCS-2103 with firmware 1.0.0 allows remote attackers to obtain the installation path via the file parameter to cgi-bin/sddownload.cgi, as demonstrated by a / (forward slash) character.	<br>
+Dcs-2103 Hd Cube Network Camera Dcs-2103 Hd Cube Network Camera
+
+https://www.cvedetails.com/cve/CVE-2014-9234
+Directory traversal vulnerability in cgi-bin/sddownload.cgi in D-link IP camera DCS-2103 with firmware 1.0.0 allows remote attackers to read arbitrary files via a .. (dot dot) in the file parameter.	<br>
+Dcs-2103 Hd Cube Network Camera Dcs-2103 Hd Cube Network Camera
+
+https://www.cvedetails.com/cve/CVE-2014-8361
+The miniigd SOAP service in Realtek SDK allows remote attackers to execute arbitrary code via a crafted NewInternalClient request.	<br>
+Dir-600l Dir-600l Dir-605l Dir-605l Dir-619l Dir-619l Dir-809 Dir-905l Dir-600l Dir-605l Dir-619l Dir-809 Dir-905l
+
+https://www.cvedetails.com/cve/CVE-2014-7859
+Stack-based buffer overflow in login_mgr.cgi in D-Link firmware DNR-320L and DNS-320LW before 1.04b08, DNR-322L before 2.10 build 03, DNR-326 before 2.10 build 03, and DNS-327L before 1.04b01 allows remote attackers to execute arbitrary code by crafting malformed &quot;Host&quot; and &quot;Referer&quot; header values.	<br>
+Dnr-320l Dnr-326 Dns-320lw Dns-322l Dns-327l Dnr-320l Dnr-326 Dns-320lw Dns-322l Dns-327l
+
+https://www.cvedetails.com/cve/CVE-2014-7858
+The check_login function in D-Link DNR-326 before 2.10 build 03 allows remote attackers to bypass authentication and log in by setting the username cookie parameter to an arbitrary string.	<br>
+Dnr-326 Dnr-326
+
+https://www.cvedetails.com/cve/CVE-2014-4927
+Buffer overflow in ACME micro_httpd, as used in D-Link DSL2750U and DSL2740U and NetGear WGR614 and MR-ADSL-DG834 routers allows remote attackers to cause a denial of service (crash) via a long string in the URI in a GET request.	<br>
+
+https://www.cvedetails.com/cve/CVE-2014-3936
+Stack-based buffer overflow in the do_hnap function in www/my_cgi.cgi in D-Link DSP-W215 (Rev. A1) with firmware 1.01b06 and earlier, DIR-505 with firmware before 1.08b10, and DIR-505L with firmware 1.01 and earlier allows remote attackers to execute arbitrary code via a long Content-Length header in a GetDeviceSettings action in an HNAP request.	<br>
+Dir505 Shareport Mobile Companion Dir505l Shareport Mobile Companion Dsp-w215 Dir505 Shareport Mobile Companion Dir505l Shareport Mobile Companion Dsp-w215
+
+https://www.cvedetails.com/cve/CVE-2014-3872
+Multiple SQL injection vulnerabilities in the administration login page in D-Link DAP-1350 (Rev. A1) with firmware 1.14 and earlier allow remote attackers to execute arbitrary SQL commands via the (1) username or (2) password.	<br>
+Dap-1350 Dap-1350 Dap-1350
+
+https://www.cvedetails.com/cve/CVE-2014-3761
+Cross-site scripting (XSS) vulnerability in D-Link DAP 1150 with firmware 1.2.94 allows remote attackers to inject arbitrary web script or HTML via the res_buf parameter to index.cgi in the Control/URL-filter section.	<br>
+Dap 1150 Dap 1150
+
+https://www.cvedetails.com/cve/CVE-2013-6027
+Stack-based buffer overflow in the RuntimeDiagnosticPing function in /bin/webs on D-Link DIR-100 routers might allow remote authenticated administrators to execute arbitrary commands via a long set/runtime/diagnostic/pingIp parameter to Tools/tools_misc.xgi.	<br>

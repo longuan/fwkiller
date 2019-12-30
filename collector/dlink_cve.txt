@@ -1,0 +1,168 @@
+
+https://www.cvedetails.com/cve/CVE-2019-16920
+Unauthenticated remote code execution occurs in D-Link products such as DIR-655C, DIR-866L, DIR-652, and DHP-1565. The issue occurs when the attacker sends an arbitrary input to a &quot;PingTest&quot; device common gateway interface that could lead to common injection. An attacker who successfully triggers the command injection could achieve full system compromise. Later, it was independently found that these are also affected: DIR-855L, DAP-1533, DIR-862L, DIR-615, DIR-835, and DIR-825.	<br>
+Dhp-1565 Dir-652 Dir-655 Dir-866l Dhp-1565 Dir-652 Dir-655 Dir-866l
+
+https://www.cvedetails.com/cve/CVE-2019-16057
+The login_mgr.cgi script in D-Link DNS-320 through 2.05.B10 is vulnerable to remote command injection.	<br>
+Dns-320 Dns-320
+
+https://www.cvedetails.com/cve/CVE-2019-15530
+An issue was discovered on D-Link DIR-823G devices with firmware V1.0.2B05. There is a command injection in HNAP1 (exploitable with Authentication) via shell metacharacters in the LoginPassword field to Login.	<br>
+Dir-823g Dir-823g
+
+https://www.cvedetails.com/cve/CVE-2019-15529
+An issue was discovered on D-Link DIR-823G devices with firmware V1.0.2B05. There is a command injection in HNAP1 (exploitable with Authentication) via shell metacharacters in the Username field to Login.	<br>
+Dir-823g Dir-823g
+
+https://www.cvedetails.com/cve/CVE-2019-15528
+An issue was discovered on D-Link DIR-823G devices with firmware V1.0.2B05. There is a command injection in HNAP1 (exploitable with Authentication) via shell metacharacters in the Interface field to SetStaticRouteSettings.	<br>
+Dir-823g Dir-823g
+
+https://www.cvedetails.com/cve/CVE-2019-15527
+An issue was discovered on D-Link DIR-823G devices with firmware V1.0.2B05. There is a command injection in HNAP1 (exploitable with Authentication) via shell metacharacters in the MaxIdTime field to SetWanSettings.	<br>
+Dir-823g Dir-823g
+
+https://www.cvedetails.com/cve/CVE-2019-15526
+An issue was discovered on D-Link DIR-823G devices with firmware V1.0.2B05. There is a command injection in HNAP1 (exploitable with Authentication) via shell metacharacters in the Type field to SetWanSettings, a related issue to CVE-2019-13482.	<br>
+Dir-823g Dir-823g
+
+https://www.cvedetails.com/cve/CVE-2019-14337
+An issue was discovered on D-Link 6600-AP and DWL-3600AP Ax 4.2.0.14 21/03/2019 devices. There is an ability to escape to a shell in the restricted command line interface, as demonstrated by the `/bin/sh -c wget` sequence.	<br>
+6600-ap Dwl-3600ap 6600-ap Dwl-3600ap
+
+https://www.cvedetails.com/cve/CVE-2019-14335
+An issue was discovered on D-Link 6600-AP and DWL-3600AP Ax 4.2.0.14 21/03/2019 devices. There is post-authenticated denial of service leading to the reboot of the AP via the admin.cgi?action=%s URI.	<br>
+6600-ap Dwl-3600ap 6600-ap Dwl-3600ap
+
+https://www.cvedetails.com/cve/CVE-2019-14333
+An issue was discovered on D-Link 6600-AP and DWL-3600AP Ax 4.2.0.14 21/03/2019 devices. There is a pre-authenticated denial of service attack against the access point via a long action parameter to admin.cgi.	<br>
+6600-ap Dwl-3600ap 6600-ap Dwl-3600ap
+
+https://www.cvedetails.com/cve/CVE-2019-13562
+D-Link DIR-655 C devices before 3.02B05 BETA03 allow XSS, as demonstrated by the /www/ping_response.cgi ping_ipaddr parameter, the /www/ping6_response.cgi ping6_ipaddr parameter, and the /www/apply_sec.cgi html_response_return_page parameter.	<br>
+Dir-655 Dir-655
+
+https://www.cvedetails.com/cve/CVE-2019-13561
+D-Link DIR-655 C devices before 3.02B05 BETA03 allow remote attackers to execute arbitrary commands via shell metacharacters in the online_firmware_check.cgi check_fw_url parameter.	<br>
+Dir-655 Dir-655
+
+https://www.cvedetails.com/cve/CVE-2019-13560
+D-Link DIR-655 C devices before 3.02B05 BETA03 allow remote attackers to force a blank password via the apply_sec.cgi setup_wizard parameter.	<br>
+Dir-655 Dir-655
+
+https://www.cvedetails.com/cve/CVE-2019-13482
+An issue was discovered on D-Link DIR-818LW devices with firmware 2.06betab01. There is a command injection in HNAP1 (exploitable with Authentication) via shell metacharacters in the Type field to SetWanSettings.	<br>
+Dir-818lw Dir-818lw
+
+https://www.cvedetails.com/cve/CVE-2019-13481
+An issue was discovered on D-Link DIR-818LW devices with firmware 2.06betab01. There is a command injection in HNAP1 (exploitable with Authentication) via shell metacharacters in the MTU field to SetWanSettings.	<br>
+Dir-818lw Dir-818lw
+
+https://www.cvedetails.com/cve/CVE-2019-13128
+An issue was discovered on D-Link DIR-823G devices with firmware 1.02B03. There is a command injection in HNAP1 (exploitable with Authentication) via shell metacharacters in the IPAddress or Gateway field to SetStaticRouteSettings.	<br>
+Dir-823g Dir-823g
+
+https://www.cvedetails.com/cve/CVE-2019-10999
+The D-Link DCS series of Wi-Fi cameras contains a stack-based buffer overflow in alphapd, the camera&#039;s web server. The overflow allows a remotely authenticated attacker to execute arbitrary code by providing a long string in the WEPEncryption parameter when requesting wireless.htm. Vulnerable devices include DCS-5009L (1.08.11 and below), DCS-5010L (1.14.09 and below), DCS-5020L (1.15.12 and below), DCS-5025L (1.03.07 and below), DCS-5030L (1.04.10 and below), DCS-930L (2.16.01 and below), DCS-931L (1.14.11 and below), DCS-932L (2.17.01 and below), DCS-933L (1.14.11 and below), and DCS-934L (1.05.04 and below).	<br>
+Dcs-5009l Dcs-5010l Dcs-5020l Dcs-5025l Dcs-5030l Dcs-930l Dcs-931l Dcs-932l Dcs-933l Dcs-934l Dcs-5009l Dcs-5010l Dcs-5020l Dcs-5025l Dcs-5030l Dcs-930l Dcs-931l Dcs-932l Dcs-933l Dcs-934l
+
+https://www.cvedetails.com/cve/CVE-2019-10892
+An issue was discovered in D-Link DIR-806 devices. There is a stack-based buffer overflow in function hnap_main at /htdocs/cgibin. The function will call sprintf without checking the length of strings in parameters given by HTTP header and can be controlled by users. And it finally leads to a stack-based buffer overflow via a special HTTP header.	<br>
+Dir-806 Dir-806
+
+https://www.cvedetails.com/cve/CVE-2019-10891
+An issue was discovered in D-Link DIR-806 devices. There is a command injection in function hnap_main, which calls system() without checking the parameter that can be controlled by user, and finally allows remote attackers to execute arbitrary shell commands with a special HTTP header.	<br>
+Dir-806 Dir-806
+
+https://www.cvedetails.com/cve/CVE-2018-20674
+D-Link DIR-822 C1 before v3.11B01Beta, DIR-822-US C1 before v3.11B01Beta, DIR-850L A* before v1.21B08Beta, DIR-850L B* before v2.22B03Beta, and DIR-880L A* before v1.20B02Beta devices allow authenticated remote command execution.	<br>
+Dir-822 Dir-822-us Dir-850l Dir-850l Dir-850l Dir-880l Dir-880l Dir-822 Dir-822-us Dir-850l Dir-880l
+
+https://www.cvedetails.com/cve/CVE-2018-20445
+D-Link DCM-604 DCM604_C1_ViaCabo_1.04_20130606 and DCM-704 EU_DCM-704_1.10 devices allow remote attackers to discover Wi-Fi credentials via iso.3.6.1.4.1.4413.2.2.2.1.5.4.1.14.1.3.32 and iso.3.6.1.4.1.4413.2.2.2.1.5.4.2.4.1.2.32 SNMP requests.	<br>
+Dcm-604 Dcm-704 Dcm-604 Dcm-704
+
+https://www.cvedetails.com/cve/CVE-2018-20114
+On D-Link DIR-818LW Rev.A 2.05.B03 and DIR-860L Rev.B 2.03.B03 devices, unauthenticated remote OS command execution can occur in the soap.cgi service of the cgibin binary via an &quot;&amp;&amp;&quot; substring in the service parameter.  NOTE: this issue exists because of an incomplete fix for CVE-2018-6530.	<br>
+Dir-818lw Dir-860l Dir-818lw Dir-860l
+
+https://www.cvedetails.com/cve/CVE-2018-15839
+D-Link DIR-615 devices have a buffer overflow via a long Authorization HTTP header.	<br>
+Dir-615 Dir-615
+
+https://www.cvedetails.com/cve/CVE-2017-16765
+XSS exists on D-Link DWR-933 1.00(WW)B17 devices via cgi-bin/gui.cgi.	<br>
+Dwr-933 Dwr-933
+
+https://www.cvedetails.com/cve/CVE-2017-8414
+An issue was discovered on D-Link DCS-1100 and DCS-1130 devices. The binary orthrus in /sbin folder of the device handles all the UPnP connections received by the device. It seems that the binary performs a sprintf operation at address 0x0000A3E4 with the value in the command line parameter &quot;-f&quot; and stores it on the stack. Since there is no length check, this results in corrupting the registers for the function sub_A098 which results in memory corruption.	<br>
+Dcs-1100 Dcs-1130 Dcs-1100 Dcs-1130
+
+https://www.cvedetails.com/cve/CVE-2017-8413
+An issue was discovered on D-Link DCS-1100 and DCS-1130 devices. The device runs a custom daemon on UDP port 5978 which is called &quot;dldps2121&quot; and listens for broadcast packets sent on 255.255.255.255. This daemon handles custom D-Link UDP based protocol that allows D-Link mobile applications and desktop applications to discover D-Link devices on the local network. The binary processes the received UDP packets sent from any device in &quot;main&quot; function. One path in the function traverses towards a block of code that handles commands to be executed on the device. The custom protocol created by D-Link follows the following pattern: Packetlen, Type of packet; M=MAC address of device or broadcast; D=Device Type;C=base64 encoded command string;test=1111. If a packet is received with the packet type being &quot;S&quot; or 0x53 then the string passed in the &quot;C&quot; parameter is base64 decoded and then executed by passing into a System API. We can see at address 0x00009B44 that the string received in packet type subtracts 0x31 or &quot;1&quot; from the packet type and is compared against 0x22 or &quot;double quotes&quot;. If that is the case, then the packet is sent towards the block of code that executes a command. Then the value stored in &quot;C&quot; parameter is extracted at address 0x0000A1B0. Finally, the string received is base 64 decoded and passed on to the system API at address 0x0000A2A8 as shown below. The same form of communication can be initiated by any process including an attacker process on the mobile phone or the desktop and this allows a third-party application on the device to execute commands on the device without any authentication by sending just 1 UDP packet with custom base64 encoding.	<br>
+Dcs-1100 Dcs-1130 Dcs-1100 Dcs-1130
+
+https://www.cvedetails.com/cve/CVE-2017-8412
+An issue was discovered on D-Link DCS-1100 and DCS-1130 devices. The device has a custom binary called mp4ts under the /var/www/video folder. It seems that this binary dumps the HTTP VERB in the system logs. As a part of doing that it retrieves the HTTP VERB sent by the user and uses a vulnerable sprintf function at address 0x0000C3D4 in the function sub_C210 to copy the value into a string and then into a log file. Since there is no bounds check being performed on the environment variable at address 0x0000C360 this results in a stack overflow and overwrites the PC register allowing an attacker to execute buffer overflow or even a command injection attack.	<br>
+Dcs-1100 Dcs-1130 Dcs-1100 Dcs-1130
+
+https://www.cvedetails.com/cve/CVE-2017-8411
+An issue was discovered on D-Link DCS-1130 devices. The device provides a user with the capability of setting a SMB folder for the video clippings recorded by the device. It seems that the POST parameters passed in this request (to test if email credentials and hostname sent to the device work properly) result in being passed as commands to a &quot;system&quot; API in the function and thus result in command injection on the device. If the firmware version is dissected using binwalk tool, we obtain a cramfs-root archive which contains the filesystem set up on the device that contains all the binaries. The library &quot;libmailutils.so&quot; is the one that has the vulnerable function &quot;sub_1FC4&quot; that receives the values sent by the POST request. If we open this binary in IDA-pro we will notice that this follows an ARM little endian format. The function sub_1FC4 in IDA pro is identified to be receiving the values sent in the POST request and the value set in POST parameter &quot;receiver1&quot; is extracted in function &quot;sub_15AC&quot; which is then passed to the vulnerable system API call. The vulnerable library function is accessed in &quot;cgibox&quot; binary at address 0x00023BCC which calls the &quot;Send_mail&quot; function in &quot;libmailutils.so&quot; binary as shown below which results in the vulnerable POST parameter being passed to the library which results in the command injection issue.	<br>
+Dcs-1130 Dcs-1130
+
+https://www.cvedetails.com/cve/CVE-2017-8410
+An issue was discovered on D-Link DCS-1100 and DCS-1130 devices. The binary rtspd in /sbin folder of the device handles all the rtsp connections received by the device. It seems that the binary performs a memcpy operation at address 0x00011E34 with the value sent in the &quot;Authorization: Basic&quot; RTSP header and stores it on the stack. The number of bytes to be copied are calculated based on the length of the string sent in the RTSP header by the client. As a result, memcpy copies more data then it can hold on stack and this results in corrupting the registers for the caller function sub_F6CC which results in memory corruption. The severity of this attack is enlarged by the fact that the same value is then copied on the stack in the function 0x00011378 and this allows to overflow the buffer allocated and thus control the PC register which will result in arbitrary code execution on the device.	<br>
+Dcs-1100 Dcs-1130 Dcs-1100 Dcs-1130
+
+https://www.cvedetails.com/cve/CVE-2017-8406
+An issue was discovered on D-Link DCS-1130 devices. The device provides a crossdomain.xml file with no restrictions on who can access the webserver. This allows an hosted flash file on any domain to make calls to the device&#039;s webserver and pull any information that is stored on the device. In this case, user&#039;s credentials are stored in clear text on the device and can be pulled easily. It also seems that the device does not implement any cross-site scripting forgery protection mechanism which allows an attacker to trick a user who is logged in to the web management interface into executing a cross-site flashing attack on the user&#039;s browser and execute any action on the device provided by the web management interface which steals the credentials from tools_admin.cgi file&#039;s response and displays it inside a Textfield.	<br>
+Dcs-1130 Dcs-1130
+
+https://www.cvedetails.com/cve/CVE-2017-8405
+An issue was discovered on D-Link DCS-1130 and DCS-1100 devices. The binary rtspd in /sbin folder of the device handles all the rtsp connections received by the device. It seems that the binary loads at address 0x00012CF4 a flag called &quot;Authenticate&quot; that indicates whether a user should be authenticated or not before allowing access to the video feed. By default, the value for this flag is zero and can be set/unset using the HTTP interface and network settings tab as shown below. The device requires that a user logging to the HTTP management interface of the device to provide a valid username and password. However, the device does not enforce the same restriction by default on RTSP URL due to the checkbox unchecked by default, thereby allowing any attacker in possession of external IP address of the camera to view the live video feed. The severity of this attack is enlarged by the fact that there more than 100,000 D-Link devices out there.	<br>
+Dcs-1100 Dcs-1130 Dcs-1100 Dcs-1130
+
+https://www.cvedetails.com/cve/CVE-2017-8404
+An issue was discovered on D-Link DCS-1130 devices. The device provides a user with the capability of setting a SMB folder for the video clippings recorded by the device. It seems that the POST parameters passed in this request (to test if email credentials and hostname sent to the device work properly) result in being passed as commands to a &quot;system&quot; API in the function and thus result in command injection on the device. If the firmware version is dissected using binwalk tool, we obtain a cramfs-root archive which contains the filesystem set up on the device that contains all the binaries. The library &quot;libmailutils.so&quot; is the one that has the vulnerable function &quot;sub_1FC4&quot; that receives the values sent by the POST request. If we open this binary in IDA-pro we will notice that this follows an ARM little endian format. The function sub_1FC4 in IDA pro is identified to be receiving the values sent in the POST request and the value set in POST parameter &quot;receiver1&quot; is extracted in function &quot;sub_15AC&quot; which is then passed to the vulnerable system API call. The vulnerable library function is accessed in &quot;cgibox&quot; binary at address 0x0008F598 which calls the &quot;mailLoginTest&quot; function in &quot;libmailutils.so&quot; binary as shown below which results in the vulnerable POST parameter being passed to the library which results in the command injection issue.	<br>
+Dcs-1130 Dcs-1130
+
+https://www.cvedetails.com/cve/CVE-2016-10184
+An issue was discovered on the D-Link DWR-932B router. qmiweb allows file reading with ..%2f traversal.	<br>
+Dwr-932b Dwr-932b
+
+https://www.cvedetails.com/cve/CVE-2016-10183
+An issue was discovered on the D-Link DWR-932B router. qmiweb allows directory listing with ../ traversal.	<br>
+Dwr-932b Dwr-932b
+
+https://www.cvedetails.com/cve/CVE-2016-10182
+An issue was discovered on the D-Link DWR-932B router. qmiweb allows command injection with ` characters.	<br>
+Dwr-932b Dwr-932b
+
+https://www.cvedetails.com/cve/CVE-2016-10181
+An issue was discovered on the D-Link DWR-932B router. qmiweb provides sensitive information for CfgType=get_homeCfg requests.	<br>
+Dwr-932b Dwr-932b
+
+https://www.cvedetails.com/cve/CVE-2016-10178
+An issue was discovered on the D-Link DWR-932B router. HELODBG on port 39889 (UDP) launches the &quot;/sbin/telnetd -l /bin/sh&quot; command.	<br>
+Dwr-932b Dwr-932b
+
+https://www.cvedetails.com/cve/CVE-2013-7471
+An issue was discovered in soap.cgi?service=WANIPConn1 on D-Link DIR-845 before v1.02b03, DIR-600 before v2.17b01, DIR-645 before v1.04b11, DIR-300 rev. B, and DIR-865 devices. There is Command Injection via shell metacharacters in the NewInternalClient, NewExternalPort, or NewInternalPort element of a SOAP POST request.	<br>
+Dir-300 Dir-865 Dir-300 Dir-865
+
+https://www.cvedetails.com/cve/CVE-2013-5997
+Unspecified vulnerability in the SSH implementation on D-Link Japan DES-3800 devices with firmware before R4.50B58 allows remote authenticated users to cause a denial of service (device hang) via unknown vectors, a different vulnerability than CVE-2013-5998.	<br>
+Des-3800 Des-3800 Des-3800
+
+
+https://www.cvedetails.com/cve/CVE-2013-5223
+Multiple cross-site scripting (XSS) vulnerabilities in D-Link DSL-2760U Gateway (Rev. E1) allow remote authenticated users to inject arbitrary web script or HTML via the (1) ntpServer1 parameter to sntpcfg.cgi, username parameter to (2) ddnsmngr.cmd or (3) todmngr.tod, (4) TodUrlAdd parameter to urlfilter.cmd, (5) appName parameter to scprttrg.cmd, (6) fltName in an add action or (7) rmLst parameter in a remove action to scoutflt.cmd, (8) groupName parameter to portmapcfg.cmd, (9) snmpRoCommunity parameter to snmpconfig.cgi, (10) fltName parameter to scinflt.cmd, (11) PolicyName in an add action or (12) rmLst parameter in a remove action to prmngr.cmd, (13) ippName parameter to ippcfg.cmd, (14) smbNetBiosName or (15) smbDirName parameter to samba.cgi, or (16) wlSsid parameter to wlcfg.wl.	<br>
+
+https://www.cvedetails.com/cve/CVE-2013-4707
+The SSH implementation on D-Link Japan DES-3810 devices with firmware before R2.20.011 allows remote authenticated users to cause a denial of service (device hang) by leveraging login access.	<br>
+Des-3810 Des-3810 Des-3810
+
+https://www.cvedetails.com/cve/CVE-2013-4706
+The SSH implementation on the D-Link Japan DWL-2100AP with firmware before R252JP-RC572 allows remote authenticated users to cause a denial of service (reboot) by leveraging login access.	<br>
+Dwl-2100ap Dwl-2100ap
