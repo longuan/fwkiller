@@ -5,6 +5,11 @@ import time
 import sqlite3
 
 ################################################################
+# target_binary = "D:\\firmware\\dlink\\DIR615_903_ssi.BinExport"
+# target_func = 0x414B50
+################################################################
+
+################################################################
 # target_binary = "D:\\firmware\\tplink\\tplink_httpd.BinExport"
 # target_func = 0x04703F0
 ################################################################
@@ -15,10 +20,14 @@ import sqlite3
 ################################################################
 
 ################################################################
-target_binary = "D:\\firmware\\bug-search\\_US_AC9V1.0BR_V15.03.05.16\\squashfs-root\\bin\\httpd.BinExport"
-target_func = 0x00074550
+# target_binary = "D:\\firmware\\bug-search\\_US_AC9V1.0BR_V15.03.05.16\\squashfs-root\\bin\\httpd.BinExport"
+# target_func = 0x7dbd4
 ################################################################
 
+################################################################
+target_binary = "D:\\firmware\\bug-search\\_US_AC18V1.0BR_V15.03.3.10\\squashfs-root\\bin\\httpd.BinExport"
+target_func = 0x77c08
+################################################################
 
 bindiff_exe = "D:\\software\\bindiff\\bin\\bindiff.exe"
 cnt = 0
@@ -50,7 +59,7 @@ def do_bindiff(secondary):
 
 def walk_dir(dir_name):
 	global cnt
-	for path, dir_list, file_list in os.walk(dir_name):
+	for path, _, file_list in os.walk(dir_name):
 		for f in file_list:
 			file_path = os.path.join(path, f)
 			if file_path.endswith(".BinExport") and (os.path.getsize(file_path) > 1024):
